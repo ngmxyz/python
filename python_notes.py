@@ -99,6 +99,24 @@ elif unit.upper() == "KILOS":
 else:
     print("Please select either Pounds or Kilos.")
 
+##### While loops
+
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+
+print("Done")
+
+# prints:
+
+ # 1
+ # 2
+ # 3
+ # 4
+ # 5
+ # Done
+
 #####
 
 
