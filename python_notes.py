@@ -85,5 +85,25 @@ else:
 
 # would print Heck yeah brother
 
+##### Weight converter
+
+weight = int(input('Weight: '))
+unit = input('Pounds or Kilos: ')
+
+if unit.upper() == "POUNDS":
+    converted = weight * 0.45
+    print(f"You are {converted} kilos")
+elif unit.upper() == "KILOS":
+    converted = weight / 0.45
+    print(f"You are {converted} pounds")
+else:
+    print("Please select either Pounds or Kilos.")
+
 #####
+
+
+
+
+
+
 
