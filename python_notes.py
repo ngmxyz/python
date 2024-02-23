@@ -1,3 +1,5 @@
+# Started Feb 23: Notes from https://www.youtube.com/watch?v=_uQrJ0TkZlc
+
 ##### if/elif/else
 
 is_hot = False
