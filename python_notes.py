@@ -184,6 +184,18 @@ for x_count in numbers:
 
 # prints an L shape of x's
 
+##### largest number find using for loop and lists
+
+moral_scores = [3, 6, 2, 8, 4, 10]
+most_moral = moral_scores[0]
+
+for how_moral in moral_scores:
+    if how_moral > most_moral:
+        most_moral = how_moral
+print(how_moral)
+
+# this would print 10 because 10 is the highest moral_score
+
 #####
 
 
