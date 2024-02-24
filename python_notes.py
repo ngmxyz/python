@@ -162,7 +162,20 @@ quit - to quit
         print("Sorry, I don't understand that. Type 'help' for help.")
 
 
-#####
+##### For loop
+
+prices = [10, 20, 30]
+total = 0
+
+for price in prices:
+    total += price
+print(f"Total: {total}")
+
+# this adds all the prices together
+
+##### Nested loops
+
+
 
 
 
