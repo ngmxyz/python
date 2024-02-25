@@ -236,7 +236,19 @@ for number in numbers:
         uniques.append(number)
 print(uniques)
 
-######
+###### unpacking
+
+coordinates = [1, 2, 3]
+
+x, y, z = coordinates
+# ^that^ does the same as below
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+#####
+
+
 
 
 
