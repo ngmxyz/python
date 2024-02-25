@@ -246,7 +246,20 @@ x = coordinates[0]
 y = coordinates[1]
 z = coordinates[2]
 
-#####
+##### dictionary
+
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+customer["birthdate"] = "Jan 1 1980"
+print(customer["birthdate"])
+print(customer["name"])
+# prints Jan 1 1980
+# prints John Smith
+
+
 
 
 
