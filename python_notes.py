@@ -259,6 +259,26 @@ print(customer["name"])
 # prints Jan 1 1980
 # prints John Smith
 
+##### Moral game v1
+
+command = ""
+immoral_values = ["stealing", "stole", "lying", "lied", "hurt", "cheat"]
+moral_values = ["help", "give", "love", "charity", "build"]
+input_prompt = input("What happened?: ")
+word_list = input_prompt.split()
+moral_weight = 0
+
+for word in word_list:
+    if word.lower() in immoral_values:
+        moral_weight += -1
+    elif word.lower() in moral_values:
+        moral_weight += 1
+    else:
+        moral_weight += 0
+print(f"Moral Score: {moral_weight}")
+
+# "I love you" would have a moral score of 1, "I hate you" would be -1, and "I hate and love you" as 0"
+
 
 
 
