@@ -279,7 +279,21 @@ print(f"Moral Score: {moral_weight}")
 
 # "I love you" would have a moral score of 1, "I hate you" would be -1, and "I hate and love you" as 0"
 
+### dictionary split for and get method
 
+message = input("> ")
+words = message.split(' ')
+emojis = {
+    ":)": "😁",
+    ":(": "☹️"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
+# entering "hello :( :)" would print hello (frown emoji) (happy emoji)
+
+####
 
 
 
